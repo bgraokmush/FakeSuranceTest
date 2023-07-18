@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PdfSharp" Version="1.50.5147" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FakeSurance.Core\FakeSurance.Core.csproj" />
+    <ProjectReference Include="..\FakeSurance.DataAccess\FakeSurance.DataAccess.csproj" />
+    <ProjectReference Include="..\FakeSurance.Entities\FakeSurance.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
